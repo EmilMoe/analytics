@@ -4,15 +4,10 @@
 tables_prefix = "matomo_"
 
 [General]
-login_password_recovery_email_address = "analytics@biblys.cloud"
-login_password_recovery_email_name = "Biblys Analytics"
-login_password_recovery_replyto_email_address = "analytics@biblys.cloud"
-login_password_recovery_replyto_email_name = "Biblys Analytics"
 proxy_client_headers[] = "HTTP_CF_CONNECTING_IP"
 proxy_client_headers[] = "HTTP_X_FORWARDED_FOR"
-salt = "b1c51d33a19757312b3012eaf50e566e"
-trusted_hosts[] = "analytics.biblys.cloud"
-noreply_email_address = "analytics@biblys.cloud"
+salt = "b1c51d33a197s7312b3012eaf50e566e"
+trusted_hosts[] = "analytics.bitbytee.dk
 
 [mail]
 transport = "smtp"
